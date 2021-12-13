@@ -1,3 +1,10 @@
+// glitch
+let port = process.env.PORT || 3000;
+server.listen(port, ()=> {
+console.log('listening at ', port);
+});
+
+
 let express = require('express');
 let app = express();
 
